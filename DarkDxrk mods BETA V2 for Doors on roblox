@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("DarkDxrk mods BETA V2", "Ocean")
+local Window = Library.CreateLib("DarkDxrk mods BETA V2.5", "Ocean")
 local Tab = Window:NewTab("others")
 local Section = Tab:NewSection("others items")
 
@@ -143,14 +143,8 @@ Section:NewButton("Spawner Dread V2 not kill", "ButtonInfo", function()
     loadstring(game:HttpGet("https://pastefy.app/Uenv1Hp4/raw"))()
 end)
 
-Section:NewButton("Spooky/Whirl", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://pastefy.app/vFSdj1Qi/raw"))()
-end)
+local Section = Tab:NewSection("guis")
 
-Section:NewButton("Greed", "ButtonInfo", function()
-   loadstring(game:HttpGet("https://pastefy.app/G7ZZYQkZ/raw"))()
-end)
-
-Section:NewButton("claim", "ButtonInfo", function()
-   loadstring(game:HttpGet("https://pastefy.app/SrIpY4oQ/raw"))()
+Section:NewButton("doors hub remake", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://pastefy.app/or8hU82p/raw"))()
 end)
