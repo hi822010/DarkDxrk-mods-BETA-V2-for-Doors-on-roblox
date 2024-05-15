@@ -149,10 +149,6 @@ end)
 
 local Section = Tab:NewSection("others")
 
-Section:NewButton("bypass anti cheat", "full", function()
-    loadstring(game:HttpGet("https://pastes.io/raw/0sqnyk2wxm"))()
-end)
-
 Section:NewButton("esp", "ButtonInfo", function()
    loadstring(game:HttpGet("https://pastefy.app/gqMfgSsW/raw",true))()
 end)
