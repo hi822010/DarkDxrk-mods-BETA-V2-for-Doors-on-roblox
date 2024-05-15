@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("DarkDxrk mods BETA V3.2", "Ocean")
+local Window = Library.CreateLib("DarkDxrk mods BETA V3.4", "Ocean")
 local Tab = Window:NewTab("others")
 local Section = Tab:NewSection("others items")
 
@@ -119,11 +119,7 @@ Section:NewButton("Spawner Entity A-666", "ButtonInfo", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/JohnyGamingLUA/A-666/main/source.lua"))()
 end)
 
-Section:NewButton("dev troll mode", "ButtonInfo", function()
-   loadstring(game:HttpGet("https://pastefy.app/Me79A2ek/raw"))()
-end)
-
-Section:NewButton("floor 2", "ButtonInfo", function()
+Section:NewButton("floor 2 custom doors", "ButtonInfo", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/xeEsfnru"))()
 end)
 
@@ -151,22 +147,20 @@ Section:NewButton("Spawner Dread V2 not kill", "ButtonInfo", function()
     loadstring(game:HttpGet("https://pastefy.app/Uenv1Hp4/raw"))()
 end)
 
-Section:NewButton("Rebound", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/Gswvwuk4"))()
+local Section = Tab:NewSection("others")
+
+Section:NewButton("bypass anti cheat", "full", function()
+    loadstring(game:HttpGet("https://pastes.io/raw/0sqnyk2wxm"))()
 end)
 
-Section:NewButton("overseer", "ButtonInfo", function()
-   loadstring(game:HttpGet("https://pastefy.app/wySy34Gw/raw"))()
+Section:NewButton("esp", "ButtonInfo", function()
+   loadstring(game:HttpGet("https://pastefy.app/gqMfgSsW/raw",true))()
 end)
 
-Section:NewButton("matcher", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://pastefy.app/shEAeTiS/raw"))()
-end)
-
-Section:NewButton("Claim", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/d3R357Rk"))()
-end)
-
-Section:NewButton("Tamara", "ButtonInfo", function()
-   loadstring(game:HttpGet("https://pastebin.com/raw/Pb3SGJE6"))()
+Section:NewToggle("fullbright", "ToggleInfo", function(state)
+    if state then
+        loadstring(game:HttpGet("https://pastefy.app/KSxVRuLA/raw",true))()
+    else
+      loadstring(game:HttpGet("https://pastefy.app/KSxVRuLA/raw",true))()
+    end
 end)
