@@ -155,7 +155,12 @@ Section:NewButton("OverSeer eyes", "ButtonInfo", function()
 loadstring(game:HttpGet("https://pastefy.app/Eyk7FyWK/raw"))()
 end)
 
-
+Section:NewButton("Matcher", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastefy.app/GL5UASV6/raw"))()
+end)
+Section:NewButton("Rebound", "ButtonInfo", function()
+    loadstring(game:HttpGet("loadstring(game:HttpGet("https://pastebin.com/raw/Gswvwuk4"))()"))()
+end)
 
 local Section = Tab:NewSection("others")
 
