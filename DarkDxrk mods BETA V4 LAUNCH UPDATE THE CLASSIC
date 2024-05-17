@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("DarkDxrk mods TEST BUILD V4.7 THE CLASSIC", "Ocean")
+local Window = Library.CreateLib("DarkDxrk mods BETA V4.7 THE CLASSIC", "Ocean")
 local Tab = Window:NewTab("others")
 local Section = Tab:NewSection("others items")
 
